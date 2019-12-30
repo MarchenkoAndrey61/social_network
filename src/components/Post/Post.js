@@ -106,7 +106,9 @@ class Post extends React.Component {
                     </div>
                     <div className = {classmypost.postContent}>
                     <div onClick={onRedactClick}>
-                      <h1 > {showPost.title} </h1>
+                      <div className = {classmypost.postPointer}> 
+                             <h1 > {showPost.title} </h1>
+                      </div>
                       </div>
                       <h4 >{showPost.description}</h4>
                     </div>
