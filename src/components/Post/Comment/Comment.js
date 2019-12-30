@@ -76,7 +76,7 @@ class Comment extends React.Component {
           this.state.visible_form &&
           <form>
             <textarea className={classes.comment_input} value={this.state.message} onChange={changeNewComment}></textarea><br/>
-            <button className={classes.addbtn} onClick={onBtnClick}>Close comments</button>
+            <button className={classes.addbtn} onClick={onBtnClick}>Add and Close comments</button>
           </form>
         }
         { this.state.visible && <div>{comments}</div> }

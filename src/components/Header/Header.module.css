@@ -17,7 +17,7 @@
   padding-left: 50px;
   margin: auto;
 }
-header a :visited{
+header a {
   color:white;
   display: flex;
   text-decoration: none;
@@ -61,7 +61,7 @@ header a :visited{
   font-size: 20px;
 }
 
-.a :visited{
+.a:visited{
   color:white;
   display: flex;
   text-decoration: none;
